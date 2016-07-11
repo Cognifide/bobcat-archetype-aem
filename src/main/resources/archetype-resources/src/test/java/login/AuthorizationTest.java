@@ -2,6 +2,7 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 package ${package}.login;
+
 import static org.junit.Assert.assertTrue;
 
 import org.junit.AfterClass;
@@ -12,6 +13,7 @@ import com.cognifide.qa.bb.junit.Modules;
 import com.cognifide.qa.bb.junit.TestRunner;
 import com.cognifide.qa.bb.provider.selenium.BobcatWait;
 import ${package}.GuiceModule;
+import ${package}.pageobjects.login.LoginPage;
 import com.google.inject.Inject;
 
 /**

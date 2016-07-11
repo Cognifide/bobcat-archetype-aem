@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.summer;
+package ${package}.pageobjects.summer;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import com.cognifide.qa.bb.aem.dialog.classic.field.AemDropdown;
 import com.cognifide.qa.bb.aem.dialog.classic.field.AemTextField;
 import com.cognifide.qa.bb.aem.qualifier.DialogField;
+import com.cognifide.qa.bb.aem.ui.component.AemComponent;
 import com.cognifide.qa.bb.aem.ui.AemDialog;
 import com.cognifide.qa.bb.qualifier.PageObject;
 import com.google.inject.Inject;
@@ -17,6 +18,7 @@ import com.google.inject.Inject;
  * Another simple component example from Geometrixx page.
  */
 @PageObject
+@AemComponent(cssClassName = "section-header", group = "Geometrixx Media", name = "Section Header")
 public class SectionHeaderComponent {
 
 	/**

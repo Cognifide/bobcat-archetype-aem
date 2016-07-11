@@ -1,13 +1,14 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.feedback;
+package ${package}.pageobjects.feedback;
 
 import org.openqa.selenium.support.FindBy;
 
 import com.cognifide.qa.bb.aem.AbstractPage;
 import com.cognifide.qa.bb.qualifier.Frame;
 import com.cognifide.qa.bb.qualifier.PageObject;
+
 
 /**
  * This is an example class that represents a page from Geometrixx project.
