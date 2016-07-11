@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.feedback;
+package ${package}.pageobjects.feedback;
 
 import com.cognifide.qa.bb.aem.dialog.classic.field.AemTextField;
 import com.cognifide.qa.bb.aem.qualifier.DialogField;
@@ -9,6 +9,7 @@ import com.cognifide.qa.bb.aem.ui.AemDialog;
 import com.cognifide.qa.bb.aem.ui.menu.AemToolbar;
 import com.cognifide.qa.bb.qualifier.PageObject;
 import com.google.inject.Inject;
+
 
 /**
  * Example page component.

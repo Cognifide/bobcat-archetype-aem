@@ -15,8 +15,10 @@ import com.cognifide.qa.bb.junit.Modules;
 import com.cognifide.qa.bb.junit.TestRunner;
 import com.cognifide.qa.bb.provider.selenium.BobcatWait;
 import ${package}.GuiceModule;
-import ${package}.login.LoginPage;
-import ${package}.summer.SectionHeaderComponent.Size;
+import ${package}.pageobjects.login.LoginPage;
+import ${package}.pageobjects.summer.SectionHeaderComponent;
+import ${package}.pageobjects.summer.SectionHeaderComponent.Size;
+import ${package}.pageobjects.summer.SummerBlockbusterHitsPage;
 import com.google.inject.Inject;
 
 /**

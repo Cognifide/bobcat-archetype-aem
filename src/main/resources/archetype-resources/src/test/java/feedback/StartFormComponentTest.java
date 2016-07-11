@@ -9,8 +9,10 @@ import static org.junit.Assert.fail;
 import java.util.NoSuchElementException;
 
 import ${package}.GuiceModule;
-import ${package}.login.LoginPage;
-import ${package}.login.ProjectsScreen;
+import ${package}.pageobjects.feedback.FeedbackPage;
+import ${package}.pageobjects.feedback.StartFormComponent;
+import ${package}.pageobjects.login.LoginPage;
+import ${package}.pageobjects.login.ProjectsScreen;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.AfterClass;
