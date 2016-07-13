@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.login;
+package ${package}.pageobjects.login;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,7 +32,7 @@ public class ProjectsScreen extends AbstractPage {
 	}
 
 	@Override
-	public String getPageTitle() {		
+	public String getPageTitle() {
 		return "AEM Projects";
 	}
 }

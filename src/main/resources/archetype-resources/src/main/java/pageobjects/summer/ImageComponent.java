@@ -1,13 +1,14 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.summer;
+package ${package}.pageobjects.summer;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.cognifide.qa.bb.aem.dialog.classic.field.image.AemImage;
 import com.cognifide.qa.bb.aem.qualifier.DialogField;
+import com.cognifide.qa.bb.aem.ui.component.AemComponent;
 import com.cognifide.qa.bb.aem.ui.AemDialog;
 import com.cognifide.qa.bb.dragdrop.Draggable;
 import com.cognifide.qa.bb.qualifier.PageObject;
@@ -19,6 +20,7 @@ import com.google.inject.Inject;
  * You can easily reuse this class, perhaps with a small modification, to create your own components.
  */
 @PageObject
+@AemComponent(cssClassName = "image", group = "General", name = "Image")
 public class ImageComponent {
 	/**
 	 * Image component has a dialog.

@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.login;
+package ${package}.pageobjects.login;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
@@ -28,7 +28,7 @@ import com.google.inject.name.Named;
 public class LoginPage {
 
 	private static final String PAGE_TITLE = "AEM Sign In";
-	
+
 	private static final Logger LOG = LoggerFactory.getLogger(LoginPage.class);
 
 	/**
@@ -73,7 +73,7 @@ public class LoginPage {
 	@Inject
 	@Named("page.title.timeout")
 	private int pageTitleTimeout;
-	
+
 	/**
 	 * LoginBox PageObject, looked up with FindBy annotation.
 	 */
@@ -82,7 +82,7 @@ public class LoginPage {
 
 	@Inject
 	private BobcatWait wait;
-	
+
 	/**
 	 * @return Instance of the LoginBox associated with this page.
 	 */
@@ -118,7 +118,7 @@ public class LoginPage {
 	/**
 	 * @return True if the login page is displayed. False otherwise.
 	 */
-	 
+
 	public boolean loginPageIsDisplayed() {
 		try {
 			wait
