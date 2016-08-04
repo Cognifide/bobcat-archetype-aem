@@ -7,6 +7,9 @@
     <version>${version}</version>
     <packaging>jar</packaging>
     <name>Bobcat test project</name>
+    <description>AEM Bobcat archetype.</description>
+    <url>https://github.com/Cognifide/bobcat-archetype</url>
+    <inceptionYear>2016</inceptionYear>
 
     <properties>
         <runSuite>**/BobcatSuite.java</runSuite>
@@ -14,7 +17,7 @@
         <configuration.paths>src/main/config</configuration.paths>
         <content.path>src/main/content</content.path>
 
-        <bb.version>0.9.0</bb.version>
+        <bb.version>0.9.6</bb.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
