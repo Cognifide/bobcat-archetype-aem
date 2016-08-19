@@ -5,7 +5,7 @@ package ${package}.pageobjects.summer;
 
 import org.openqa.selenium.support.FindBy;
 
-import com.cognifide.qa.bb.aem.AbstractPage;
+import com.cognifide.qa.bb.aem.page.AuthorPage;
 import com.cognifide.qa.bb.qualifier.Frame;
 import com.cognifide.qa.bb.qualifier.PageObject;
 
@@ -16,7 +16,7 @@ import com.cognifide.qa.bb.qualifier.PageObject;
  */
 @PageObject
 @Frame("$cq")
-public class SummerBlockbusterHitsPage extends AbstractPage {
+public class SummerBlockbusterHitsPage extends AuthorPage {
 
 	private static final String PAGE_TITLE = "Summer Blockbuster Hits and Misses";
 

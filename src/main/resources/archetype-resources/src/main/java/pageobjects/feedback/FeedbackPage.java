@@ -5,7 +5,7 @@ package ${package}.pageobjects.feedback;
 
 import org.openqa.selenium.support.FindBy;
 
-import com.cognifide.qa.bb.aem.AbstractPage;
+import com.cognifide.qa.bb.aem.page.AuthorPage;
 import com.cognifide.qa.bb.qualifier.Frame;
 import com.cognifide.qa.bb.qualifier.PageObject;
 
@@ -19,7 +19,7 @@ import com.cognifide.qa.bb.qualifier.PageObject;
  */
 @PageObject
 @Frame("$cq")
-public class FeedbackPage extends AbstractPage {
+public class FeedbackPage extends AuthorPage {
 
 	/**
 	 * Replace value of this constant with relative address of your page.
