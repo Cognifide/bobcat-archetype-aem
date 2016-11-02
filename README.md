@@ -11,10 +11,10 @@ This project is Maven archetype for Bobcat using JUnit tests with support for AE
 
 ## Create project
 ```
-mvn archetype:generate \
-        -DarchetypeGroupId=com.cognifide.qa.bb \
-        -DarchetypeArtifactId=bobcat-archetype-aem \
-        -DarchetypeVersion=1.0.0 \
+mvn archetype:generate 
+        -DarchetypeGroupId=com.cognifide.qa.bb 
+        -DarchetypeArtifactId=bobcat-archetype-aem 
+        -DarchetypeVersion=1.0.0 
 ```
 Example properties for archetype
 ```
